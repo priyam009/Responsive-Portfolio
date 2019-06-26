@@ -1,0 +1,168 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  background-image: url("../images/fabric.png");
+  margin: 0;
+  padding: 0;
+}
+
+ header{
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.nav-bar {
+  float: right;
+  padding: 15px 180px;
+}
+
+.nav-bar li {
+  display: inline-block;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  margin: 0 30px;
+  color: #777;
+  font-size: 18px;
+}
+
+.nav-bar > li ~ li {
+  border-left: 0.5px solid #777;
+}   
+
+.nav-heading a:hover {
+  color: #4aaaa5;
+}
+
+.nav-name {
+  width: 200px;
+  background: #4aaaa5;
+  padding: 20px 20px;
+  margin: 0;
+  margin-left: 15.5%;
+  color: #fff;
+}
+
+.foot-bar {
+  border-top: 8px solid #4aaaa5;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #777;
+  height: 50px;
+  overflow: hidden;
+}
+
+.foot-bar h6 {
+  display: block;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  bottom: -10px;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 960px;
+  margin: 20px auto 80px;
+  background: #fff;
+  padding: 20px 50px;
+}
+
+.container h2 {
+  color: #4aaaa5;
+  margin-top: 20px;
+}
+
+.container hr {
+ border-top: 1px solid #D3D3D3;
+}
+
+.about-image {
+  float: left;
+  margin: 15px;
+  margin-left: 0;
+  width: 200px;
+  height: 200px;
+}
+
+.about-para {
+  line-height: 1.5em;
+  color: #777;
+}
+
+.container-form {
+  margin-top: 20px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin: 5px 0 10px 0;
+  padding: 5px 10px;
+  color: #777;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background: #4aaaa5;
+  padding: 10px 20px;
+  margin: 10px 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-data {
+  color: #777;
+  display: block;
+}
+
+#msg {
+  height: 200px;
+  resize: vertical;
+  overflow: auto;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 5px 0;
+  border: 1px solid #D3D3D3;
+}
+
+.row {
+  margin-top: 25px;
+}
+
+.col {
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+
+.col h5 {
+  font-weight: lighter;
+  font-size: 14px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  bottom: -10px;
+  text-align: center;
+  background: #4aaaa5;
+  color: #fff;
+  padding: 7.5px ;
+}
+
+.col img {
+  width: 200px;
+  height: 150px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-margin {
+  margin-left: 50px;
+}
