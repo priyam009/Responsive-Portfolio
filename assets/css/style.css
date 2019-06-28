@@ -123,7 +123,11 @@ input[type=submit] {
   display: block;
 }
 
-#msg {
+.form-format {
+  border: 1px solid #D3D3D3;
+}
+
+.msg-form {
   height: 200px;
   resize: vertical;
   overflow: auto;
@@ -173,14 +177,15 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
   .container {
-    width: 738px;
+    width: auto;
+    margin: 20px 30px 80px 30px;
   } 
 }
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 610px;
-    margin: 20px 0 80px 15px;
+    width: auto;
+    margin: 20px 15px 80px 15px;
   }
 
   .nav-name {
@@ -200,9 +205,10 @@ input[type=submit] {
   }
 
   .container {
-    margin: 20px 0 80px 15px;
-    width: 500px;
+    margin: 20px 15px 80px 15px;
+    width: auto;
   }
+
   .about-image {
     float: none;
     margin: 15px;
@@ -212,7 +218,7 @@ input[type=submit] {
   }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 370px) {
   .nav-bar {
     margin-top: 2px;
     margin-bottom: 2px;
