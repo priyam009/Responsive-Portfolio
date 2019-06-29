@@ -2,6 +2,7 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   background-image: url("../images/fabric.png");
   margin: 0;
@@ -185,7 +186,7 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
   .container {
     width: auto;
-    margin: 20px 15px 80px 15px;
+    margin: 20px 20px 80px 20px;
   }
 
   .nav-name {
@@ -205,7 +206,7 @@ input[type=submit] {
   }
 
   .container {
-    margin: 20px 15px 80px 15px;
+    margin: 20px 20px 80px 20px;
     width: auto;
   }
 
